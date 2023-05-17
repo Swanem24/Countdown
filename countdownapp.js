@@ -18,10 +18,10 @@ function countdown() {
 
     console.log(days, hours, minutes, seconds);
 
-    daysEl.innerHTML = days;
-    hoursEl.innerHTML = hours;
-    minsEl.innerHTML = minutes;
-    secEl.innerHTML = seconds;
+    daysEl.innerHTML = Math.abs(days);
+    hoursEl.innerHTML = Math.abs(hours);
+    minsEl.innerHTML = Math.abs(minutes);
+    secEl.innerHTML = Math.abs(seconds);
 
 }
 
